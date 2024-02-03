@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+@font-face {
+  src: url(/social-links-profile-main/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.template {
+  background-color: hsl(0, 0%, 12%);
+  width: 450px;
+  height: 700px;
+  margin: 50px auto 50px auto;
+  /* display: grid; */
+  border-radius: 10px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+
+.photo img {
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+}
+.person {
+  display: block;
+  justify-self: center;
+  margin: 0;
+  text-align: center;
+}
+.person h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+}
+
+.person h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 1rem;
+  margin-top: -10px;
+}
+.person h3 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1rem;
+  margin-top: 30px;
+}
+.link {
+  display: grid;
+  gap: 15px;
+  margin-top: 30px;
+  justify-self: center;
+}
+.link button {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  color: aliceblue;
+  padding: 15px 120px 15px 120px;
+  border: none;
+  font-size: 1rem;
+}
+/* .link button :hover {
+} */
