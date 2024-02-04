@@ -1,11 +1,9 @@
 * {
   box-sizing: border-box;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+
 }
-@font-face {
-  src: url(/social-links-profile-main/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
-}
+
+
 body {
   background-color: hsl(0, 0%, 8%);
 }
@@ -65,5 +63,6 @@ body {
   border: none;
   font-size: 1rem;
 }
-/* .link button :hover {
-} */
+button:hover {
+  background-color: hsl(0, 0%, 37%);
+}
